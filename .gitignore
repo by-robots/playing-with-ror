@@ -1,16 +1,18 @@
-*.rbc
-capybara-*.html
+.DS_Store
 .rspec
-/log
-/tmp
+*.orig
+*.rbc
+/.vscode
+/coverage/
 /db/*.sqlite3
 /db/*.sqlite3-journal
+/log
 /public/system
-/coverage/
 /spec/tmp
-*.orig
-rerun.txt
+/tmp
+capybara-*.html
 pickle-email-*.html
+rerun.txt
 
 # TODO Comment out this rule if you are OK with secrets being uploaded to the repo
 config/initializers/secret_token.rb
